@@ -4,12 +4,24 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beyanasr/checkpoint-mongoose.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beyanasr/checkpoint-mongoose/issues"
+  },
+  "homepage": "https://github.com/beyanasr/checkpoint-mongoose#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.12.14"
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.12.15",
+    "nodemon": "^2.0.7",
+    "validator": "^13.6.0"
   }
 }
